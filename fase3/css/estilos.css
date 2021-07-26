@@ -1,0 +1,180 @@
+body {
+    background-color: #eff1f5;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    border: 10px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    border: 10px;
+}
+p {
+    font-size: 20px;
+    font-weight: 60;
+    border: 10px;
+    
+}
+header{
+    padding: 20px 0 0 0;
+    background: #6393b8;
+}
+nav{
+    background: #008a93;
+    color: rgb(236, 241, 236);
+    padding: 10px;
+    font-size: 20px;
+}
+.menu nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu nav ul{
+    list-style: none;
+    display: flex;
+}
+.menu img{
+    width: 89px;
+    border-radius: 50%;
+}
+img{
+    width: 300px;
+    border-radius: 10%;
+    align-items: center;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    color:lavenderblush;
+    padding: 12px 18px;
+}
+
+.menu nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu nav ul li ul{
+    position:absolute;
+    width: 180;
+    position: relative;
+}
+.menu nav ul li ul{
+    display: none;
+}
+.menu nav ul li:hover > ul{
+    display: block;
+}
+
+section{
+    width: 70%;
+    float: left;
+    background-color:rgb(238, 225, 208);
+    font-size: 18px;
+    padding: 0.1%;
+    border: 10px;
+}
+aside{
+    width: 340;
+    height: 600;
+    float: left;
+    background-color: rgb(213, 213, 236);
+    margin-left: 8mm;
+    margin-right: 5mm;
+    margin-block-start: 5mm;
+
+}
+footer{
+    background-color: rgb(2, 26, 27);
+    color: rgb(8, 8, 27);
+    padding: 30px;
+    margin-top: 40px;
+    padding-top: 30px;
+    background: #010508;
+    font-size: 10px;
+    height: 250px; 
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+article{
+    margin-left: 8mm;
+    margin-right: 5mm;
+    margin-block-start: 5mm;
+}
+#imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pmagen>img {
+    max-width: 50%;
+    border: 2px solid red;
+}
+.contenedor1{
+    width: 1250px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    color: #707070;
+}
+.col1{
+    width: 650px;
+}
+.col1 p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.col1 h1{
+    text-align: left;
+    color: #707070;
+}
+.col2{
+    width: 650px;
+}
+.col2 h1{
+    text-align: left;
+    color: #707070;
+    display: flex;
+}
+.col2 img{
+    width: 40px;
+    margin: 10px;
+}
+.col2 .ig{
+    
+    display: flex;
+    align-items: center;
+}
+.col2 .fb{
+    
+    display: flex;
+    align-items: center;
+}
+.final{
+    height: 200px;
+    margin: auto;
+    color: #707070;
+}
+.copy{
+   
+    height: 100px;
+    float: left;
+    
+}
+.politic{
+    width: 625px;
+    float: right;
+}
